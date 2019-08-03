@@ -3,14 +3,14 @@
 ##Date Of Completion: 4/14/19
 ##Time Of Completion: 2 Hours and 30 Minutes 
 ##Brief Explanation Of The Program: Utlizing the python language to write
-##                                                                     three seperate functions  
+##                                  three seperate functions  
 
 
 
 
 def getFees(balance, checks): ## Function to calculate total bank fees due in a month 
     if balance <= 400:                    ## Condition that checks if balance is below or equal to 400
-        fee = 15                                   ## fee thats added to totalFees if balance is below 400
+        fee = 15                          ## fee thats added to totalFees if balance is below 400
     else:
         fee = 0
     if checks > 0 and checks <= 19:
@@ -34,7 +34,7 @@ def getProduct(num1, num2, num3): ## Function will find product total of numbers
         while num1 <= num2:
             total = total * num1 
             num1 = num1 + num3                  ## Step increment decided by num3 that was entered 
-    return total                                              ## Returns total to getProduct function 
+    return total                                ## Returns total to getProduct function 
 
 def vowelCheck(x): ## Function determines if character entered is vowel 
     if (x == "a" or x == "e" or x == "i" or x == "o" or x == "u"): 
@@ -55,16 +55,16 @@ def main(): ## Main function
     print ("The bank fee due this month is: ", "%.2f"  % bankFee) 
 
     num1 = int(input("Enter the first number: "))       ## Gets first number input for getProduct function 
-    num2 = int(input("Enter the second number: ")) ## Gets second number input for getProduct function 
-    num3 = int(input("Enter the third number: "))     ## Gets third number input for getProduct function 
-    total = getProduct(num1, num2, num3)                  ## Calls the getProduct function 
+    num2 = int(input("Enter the second number: "))      ## Gets second number input for getProduct function 
+    num3 = int(input("Enter the third number: "))       ## Gets third number input for getProduct function 
+    total = getProduct(num1, num2, num3)                ## Calls the getProduct function 
     print("Total: ", total) 
 
-    x = (input("Enter a character: ")) ## Gets input of character from user 
+    x = (input("Enter a character: "))    ## Gets input of character from user 
     if vowelCheck(x) == "True":           ## Displays character as a vowel if true
         print (x, "is a vowel")
     else:
-        print (x, "is not a vowel")         ## Displays character as not a vowel if false 
+        print (x, "is not a vowel")       ## Displays character as not a vowel if false 
               
 
 
