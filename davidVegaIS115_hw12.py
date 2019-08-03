@@ -3,7 +3,7 @@
 ## Date Of Completion: 5/9/2019
 ## Time Of Completion : 5 Hours
 ## Brief Explanation Of The Program: Utilizing try/catch method for valid input, using arrys and the information
-##                                                                     stored in them to modularize our program while using functions 
+##                                   stored in them to modularize our program while using functions 
 
 ## Function to display student info entered
 def studentInfo(firstName, middleInitial, lastName, gpa, students): 
@@ -46,7 +46,7 @@ def writeFile(firstName, middleInitial, lastName, gpa, students):
 
 def main():
  ## Try/catch method used to accept only whole numbers
-## and does not accept decimal or character values as input 
+ ## and does not accept decimal or character values as input 
 
     students = 0
     while students == 0:
