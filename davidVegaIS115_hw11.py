@@ -3,7 +3,7 @@
 ##Date Of Completion: 4/19/19
 ##Time Of Completion: 3 Hours
 ##Brief Explanation Of The Program: Utlizing the Python language to handle
-##                                                                    exceptions and create/write to files 
+##                                  exceptions and create/write to files 
 
 tempRead = 0 ## Primer for loop to catch errors being entered 
 while tempRead == 0: 
@@ -34,9 +34,9 @@ while tempRead > 0: ## Loop to input temperature readings
         celsius = (fahrenheit - 32) / 1.8
     print (fahrenheit, "degrees Fahrenheit converts to" , "%.2f" % celsius, "degrees Celsius") 
     fahrenheitTotal = fahrenheitTotal + fahrenheit ## Keeps running total for fahrenheitTotal 
-    celsiusTotal = celsiusTotal + celsius ## Keeps running total for celsiusTotal 
+    celsiusTotal = celsiusTotal + celsius          ## Keeps running total for celsiusTotal 
     tempRead = tempRead - 1 ## Loop counter for outer loop 
-    x = x + 1                                    ## Used to calculate average of temperatures 
+    x = x + 1                                      ## Used to calculate average of temperatures 
 avgFahrenheit = fahrenheitTotal / x ## Calculates average temperature of fahrenheit
 avgCelsius = celsiusTotal / x ## Calculates average temperature of celsius
 print ("Total temperature in degrees Fahrenheit = ", "%.2f" % fahrenheitTotal)
