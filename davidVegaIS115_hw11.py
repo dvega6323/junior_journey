@@ -2,8 +2,9 @@
 ##Course Number And Section: IS 115 Section 1004
 ##Date Of Completion: 4/19/19
 ##Time Of Completion: 3 Hours
-##Brief Explanation Of The Program: Utlizing the Python language to handle
-##                                  exceptions and create/write to files 
+##Brief Explanation Of The Program: Utilized Python to handle exceptions in a 
+##                                  temperature conversion, calculates total and  
+##                                  average tempeatures, and create/write results to file 
 
 tempRead = 0 ## Primer for loop to catch errors being entered 
 while tempRead == 0: 
