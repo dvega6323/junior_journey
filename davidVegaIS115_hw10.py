@@ -2,8 +2,9 @@
 ##Course Number And Section: IS 115 Section 1004
 ##Date Of Completion: 4/14/19
 ##Time Of Completion: 2 Hours and 30 Minutes 
-##Brief Explanation Of The Program: Utlizing the python language to write
-##                                  three seperate functions  
+##Brief Explanation Of The Program: Utlizing the Python to write a bank check
+##                                  fees processing fucntion, product total function, 
+##                                  vowel checker functions  
 
 
 
