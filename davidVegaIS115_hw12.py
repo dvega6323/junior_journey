@@ -2,8 +2,8 @@
 ## Course Number And Section: IS 115 Section 1004
 ## Date Of Completion: 5/9/2019
 ## Time Of Completion : 5 Hours
-## Brief Explanation Of The Program: Utilizing try/catch method for valid input, using arrys and the information
-##                                   stored in them to modularize our program while using functions 
+## Brief Explanation Of The Program: Utilized Python to write a try/catch method for valid student processing, 
+##                                   various student info is stored and written to a file                                   
 
 ## Function to display student info entered
 def studentInfo(firstName, middleInitial, lastName, gpa, students): 
